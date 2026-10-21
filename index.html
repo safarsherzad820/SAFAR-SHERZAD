@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ckb" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#10151d">
+  <meta name="description" content="SAFAR SHERZAD - فرۆشگای ئۆنلاین">
+  <title>SAFAR SHERZAD | فرۆشگای ئۆنلاین</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">بەخێربێن بۆ فرۆشگای ئۆنلاین <strong>SAFAR SHERZAD</strong></div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="SAFAR SHERZAD">
+      <span class="brand-mark">S</span><span><b>SAFAR SHERZAD</b><small>فرۆشگای ئۆنلاین</small></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#products">کاڵاکان</a><a href="#about">دەربارە</a><a href="#contact">پەیوەندی</a>
+    </nav>
+    <button id="admin-open" class="button button-outline" type="button">ژووری بەڕێوەبەر</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="pulse"></span> فرۆشگای دیجیتاڵی نوێ</span>
+        <h1>کاڵای دڵخوازت،<br><span>بە ئاسانی بدۆزەوە.</span></h1>
+        <p>بەخێربێیت بۆ SAFAR SHERZAD؛ کاڵاکان ببینە، وردەکارییان بخوێنەوە و داواکارییەکەت بە ئاسانی بنێرە.</p>
+        <div class="hero-actions"><a class="button button-gold" href="#products">بینینی کاڵاکان <span>←</span></a><a class="button button-ghost" id="hero-whatsapp" href="#" target="_blank" rel="noopener">پەیوەندی بە واتساپ</a></div>
+        <div class="hero-trust"><span>✓ پارەدان کاتی گەیاندن</span><span>✓ پەیوەندی ڕاستەوخۆ</span><span>✓ کاڵای نوێ بەردەوام</span></div>
+      </div>
+      <div class="hero-art" aria-label="دیزاینی فرۆشگای ئۆنلاین">
+        <div class="art-glow"></div><div class="art-card art-card-back"></div>
+        <div class="art-card art-card-front"><div class="art-top"><span>SS / STORE</span><span class="art-dot"></span></div><div class="art-emblem">S</div><div class="art-caption">SMART SHOPPING<br><small>MADE SIMPLE</small></div></div>
+        <div class="floating-chip chip-one">✦ کوالێتی</div><div class="floating-chip chip-two">خزمەتگوزاری باش ✓</div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div><span class="benefit-icon">▦</span><span><b>جۆری جیاواز</b><small>کاڵا بۆ پێداویستییە جیاوازەکان</small></span></div>
+      <div><span class="benefit-icon">↗</span><span><b>داواکاری ئاسان</b><small>بە واتساپ داواکاری بنێرە</small></span></div>
+      <div><span class="benefit-icon">⌂</span><span><b>هەولێر - بحرکە</b><small>شوێنی فرۆشگا</small></span></div>
+    </section>
+
+    <section class="products-section" id="products">
+      <div class="section-heading"><div><span class="eyebrow">کۆگای کاڵاکان</span><h2>کاڵاکانی ئێمە</h2><p>کاڵای بەردەست بگەڕێ و ئەوەی دەتەوێت هەڵبژێرە.</p></div><div class="product-tools"><input id="search" type="search" placeholder="گەڕان بە ناوی کاڵا..." aria-label="گەڕان"><select id="category" aria-label="پۆل"><option value="">هەموو پۆلەکان</option></select></div></div>
+      <div id="status" class="status-message">کاڵاکان بار دەکرێن...</div>
+      <div id="product-grid" class="product-grid"></div>
+      <div id="empty-state" class="empty-state hidden"><span>⌕</span><h3>هیچ کاڵایەک نەدۆزرایەوە</h3><p>وشەیەکی تر بنووسە یان پۆلەکە بگۆڕە.</p></div>
+    </section>
+
+    <section class="about-strip" id="about"><div class="about-symbol">SS</div><div><span class="eyebrow">SAFAR SHERZAD</span><h2>کڕینێکی ئاسان و ڕوون</h2><p>کاڵاکە هەڵبژێرە، داواکارییەکەت بنێرە و بۆ ڕێکخستنی گەیاندن پەیوەندیمان پێوە بکە.</p></div><a class="button button-outline" id="about-whatsapp" href="#" target="_blank" rel="noopener">پەیوەندی بکە ←</a></section>
+  </main>
+
+  <footer id="contact">
+    <div class="footer-brand"><span class="brand-mark">S</span><div><b>SAFAR SHERZAD</b><p>فرۆشگای ئۆنلاین بە کوردی سۆرانی</p></div></div>
+    <div class="footer-contact"><b>پەیوەندی</b><span>ناونیشان: هەولێر - بحرکە</span><span id="footer-phone">واتساپ: +964 783 277 5646</span><a id="footer-whatsapp" href="#" target="_blank" rel="noopener">نامە بنێرە لە واتساپ ↗</a></div>
+    <div class="footer-note">© <span id="year"></span> SAFAR SHERZAD. هەموو مافەکان پارێزراون.</div>
+  </footer>
+
+  <dialog id="order-dialog" class="modal">
+    <form id="order-form" class="modal-card">
+      <button class="modal-close" type="button" data-close="order-dialog" aria-label="داخستن">×</button>
+      <span class="eyebrow">داواکاری کاڵا</span><h2 id="order-title">کاڵا</h2><p id="order-price" class="order-price"></p>
+      <input type="hidden" id="order-product-id">
+      <label>ناوی تەواو<input id="customer-name" required maxlength="100" placeholder="ناوی کڕیار"></label>
+      <label>ژمارەی مۆبایل<input id="customer-phone" required type="tel" maxlength="30" placeholder="07xx xxx xxxx"></label>
+      <label>ناونیشانی گەیاندن<textarea id="customer-address" required maxlength="400" rows="3" placeholder="شار، گەڕەک، ناونیشانی ورد"></textarea></label>
+      <label>تێبینی (ئارەزوومەندانە)<textarea id="customer-note" maxlength="500" rows="2" placeholder="ژمارە، ڕەنگ یان وردەکاری تر"></textarea></label>
+      <button class="button button-gold full" type="submit">ناردنی داواکاری لە واتساپ</button>
+      <p class="tiny-note">زانیارییەکان لە واتساپ دەکرێنەوە بۆ ئەوەی داواکارییەکەت پشتڕاست بکرێتەوە.</p>
+    </form>
+  </dialog>
+
+  <dialog id="admin-dialog" class="modal admin-modal">
+    <div class="modal-card admin-card">
+      <button class="modal-close" type="button" data-close="admin-dialog" aria-label="داخستن">×</button>
+      <div id="admin-login-view">
+        <span class="eyebrow">تەنها بۆ بەڕێوەبەر</span><h2>چوونە ژوورەوە</h2><p class="muted">بە ئیمەیڵی بەڕێوەبەرەوە بچۆ ژوورەوە.</p>
+        <form id="login-form"><label>ئیمەیڵ<input id="admin-email" type="email" value="safarsherzad820@gmail.com" required autocomplete="username"></label><label>وشەی نهێنی<input id="admin-password" type="password" required autocomplete="current-password" placeholder="وشەی نهێنی Supabase"></label><button class="button button-gold full" type="submit">چوونە ژوورەوە</button></form>
+        <p class="tiny-note">ئەگەر هەژماری بەڕێوەبەر دروست نەکراوە، ڕێنمایی README.md بخوێنەوە.</p>
+      </div>
+      <div id="admin-dashboard" class="hidden">
+        <div class="admin-heading"><div><span class="eyebrow">کۆنترۆڵی فرۆشگا</span><h2>ژووری بەڕێوەبەر</h2></div><button id="logout" class="button button-outline" type="button">چوونە دەرەوە</button></div>
+        <div class="admin-tabs"><button class="tab active" data-tab="product-editor">کاڵای نوێ / دەستکاری</button><button class="tab" data-tab="admin-products">بەڕێوەبردنی کاڵاکان</button></div>
+        <section id="product-editor" class="admin-panel"><h3 id="editor-heading">زیادکردنی کاڵا</h3><form id="product-form">
+          <input type="hidden" id="edit-id">
+          <label>ناوی کاڵا<input id="product-name" required maxlength="140" placeholder="ناوی کاڵا"></label>
+          <div class="form-row"><label>نرخ (دینار)<input id="product-price" type="number" required min="0" step="1" placeholder="25000"></label><label>پۆل<input id="product-category" required maxlength="80" placeholder="مۆبایل، ئەلیکترۆنی..."></label></div>
+          <label>وێنەی کاڵا (URL)<input id="product-image" type="url" placeholder="https://..."></label>
+          <label>یان بارکردنی وێنە <input id="product-file" type="file" accept="image/*"></label>
+          <label>وردەکاری کاڵا<textarea id="product-description" rows="3" maxlength="1200" placeholder="وردەکارییەکانی کاڵا"></textarea></label>
+          <label class="checkbox-label"><input id="product-active" type="checkbox" checked> نیشاندانی کاڵا بۆ کڕیاران</label>
+          <div class="form-row"><button class="button button-gold" type="submit">پاشەکەوتکردن</button><button class="button button-outline" id="reset-product" type="button">پاککردنەوە</button></div>
+          <p id="admin-message" class="admin-message" role="status"></p>
+        </form></section>
+        <section id="admin-products" class="admin-panel hidden"><h3>کاڵاکانی فرۆشگا</h3><div id="admin-product-list"></div></section>
+      </div>
+    </div>
+  </dialog>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
